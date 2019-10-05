@@ -7,49 +7,37 @@
     <style>
         body {
             background-color: white;
-            text-align: center;
             overflow-x: hidden;
             font-family: "Impact", sans-serif;
             color: white;
         }
-        ul {
-            list-style: none;
-        }
-        ul li {
-            width: 120%;
-            height: 10%;
-            line-height: 20px;
-            font-size: 20px;
-            background-color: rgb(110, 12, 12);
-        }
-        ul li a {
-            text-decoration: none;
-            display: block;
 
+        .list-properties {
+          text-align:center;
+          list-style:none;
+          display:inline-block;
+          line-height:80px;
+          font-size: 20px;
+          padding:0 8%;
         }
-        ul li a:hover {
-            background-color: rgb(100, 2, 2);
+        .link-properties {
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
         }
-        ul li ul li {
-            display: none;
-        }
-        ul li:hover ul li {
-            display: block;
+        nav {
+          width: 100%;
+          height: 100px;
+          background-color: rgb(200, 20, 20);
         }
     </style>
     <body>
-        <ul>
-            <li><a>Link 1</a>
-                <ul>
-                    <li><a>Other Link 1</a></li>
-                    <li><a>Other Link 2</a></li>
-                    <li><a>Other Link 3</a></li>
-                </ul>
-            </li>
-            <li><a>Link 2</a></li>
-            <li><a>Link 3</a></li>
-            <li><a>Link 4</a></li>
-            <li><a>Link 5</a></li>
-        </ul>
+        <nav><ul>
+          <li class="list-properties"><a class="link-properties">link1</a></li>
+          <li class="list-properties"><a class="link-properties">link2</a></li>
+          <li class="list-properties"><a class="link-properties">link3</a></li>
+          <li class="list-properties"><a class="link-properties">link4</a></li>
+        </ul></nav>
     </body>
 </html>
