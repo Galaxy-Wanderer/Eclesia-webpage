@@ -31,10 +31,10 @@
           height: 100px;
           background-color: rgb(200, 20, 20);
         }
-        .sub-links {
+        ul li ul li {
           display: none;
         }
-        .list-properties:hover .sub-links {
+        .list-properties:hover ul li {
           display: block;
         }
     </style>
@@ -42,8 +42,8 @@
         <nav><ul>
           <li class="list-properties"><a class="link-properties">link1</a>
             <ul>
-              <li class="sub-links">Other link2</li>
-              <li class="sub-links">Other link2</li>
+              <li>Other link2</li>
+              <li>Other link2</li>
             </ul>
           </li>
           <li class="list-properties"><a class="link-properties">link2</a></li>
