@@ -14,12 +14,14 @@
         }
         .list-properties {
           list-style:none;
+          padding-left: 70px;
           line-height:80px;
           font-size: 20px;
-          width: 10%;
+          width: 5%;
           transform: translate(35%, 0px);
           height: 100px;
           float: left;
+          border-left: 3px solid white;
         }
         .link-properties {
           float: left;
@@ -43,21 +45,20 @@
           color: black;
           margin-top: 5px;
           transform: translate(-100px, 100px);
-          line-height: 50px;
-          width: 90%;
+          width: 200%;
         }
     </style>
     <body>
         <nav><ul>
           <li class="list-properties"><a class="link-properties">link1</a>
-            <ul>
-              <li>Other link2</li>
-              <li>Other link2</li>
-            </ul>
+              <ul>
+                  <li>Other link2</li>
+                  <li>Other link2</li>
+              </ul>
           </li>
-          <li class="list-properties"><a class="link-properties">link2</a></li>
-          <li class="list-properties"><a class="link-properties">link3</a></li>
-          <li class="list-properties"><a class="link-properties">link4</a></li>
+            <li class="list-properties"><a class="link-properties">link2</a></li>
+            <li class="list-properties"><a class="link-properties">link3</a></li>
+            <li class="list-properties"><a class="link-properties">link4</a></li>
         </ul></nav>
     </body>
 </html>
