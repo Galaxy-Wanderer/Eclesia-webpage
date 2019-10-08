@@ -5,18 +5,34 @@
     <meta charset="utf-8">
     <title>Test</title>
   </head>
+  <style>
+      body {
+        tex-align: center;
+        background-color: rgb(200, 200, 200);
+      }
+     header nav h1 a {
+       float: left;
+       text-decoration: none;
+     }
+     header nav h1 a ul li {
+       display: none;
+     }
+     header h1 a:hover ul li {
+       display: block;
+     }
+  </style>
   <body>
      <header>
        <nav>
-         <a>Link 1
+         <h1><a>Link 1
            <ul>
              <li>Sublink 1</li>
              <li>Sublink 2</li>
              <li>Sublink 3</li>
            </ul>
-         </a>
-         <a>Link 2</a>
-         <a>Link 3</a>
+         </a></h1>
+         <h1><a>Link 2</a></h1>
+         <h1><a>Link 3</a></h1>
        </nav>
      </header>
   </body>
