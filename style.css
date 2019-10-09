@@ -1,0 +1,22 @@
+body {
+   text-align: center;
+   background-color: rgb(200, 200, 200);
+}
+header nav h1 a {
+  float: left;
+  text-decoration: none;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transform: translate(0px, 0px);
+  width: 75px;
+}
+header nav h1 a ul li {
+  display: none;
+}
+header nav h1 a:hover ul li {
+  display: block;
+  transform: translate(-50px, 0px);
+  width: 100px;
+  cursor: pointer;
+}
