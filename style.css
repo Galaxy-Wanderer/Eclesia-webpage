@@ -10,6 +10,7 @@ header nav h1 a {
   padding-right: 50px;
   transform: translate(0px, 0px);
   width: 75px;
+  cursor: pointer;
 }
 header nav h1 a ul li {
   display: none;
