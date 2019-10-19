@@ -2,25 +2,21 @@ body {
    text-align: center;
    background-color: rgb(200, 200, 200);
 }
-header nav {
-  width: 100%;
+#navbar {
   background-color: red;
 }
 header nav img {
-  transform: translate(-1000px, 0px);
-  margin: 0px;
   width: 75px;
   height: 75px;
   border-radius: 100%;
 }
 header nav h1 a {
-  float: right;
-  margin-top: 0px;
+  float: left;
   text-decoration: none;
   margin-right: 100px;
   padding-left: 50px;
   padding-right: 50px;
-  transform: translate(0px, -100px);
+  transform: translate(0px, 0px);
   width: 75px;
   cursor: pointer;
   color: white;
