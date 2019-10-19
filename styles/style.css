@@ -2,8 +2,13 @@ body {
    text-align: center;
    background-color: rgb(200, 200, 200);
 }
-header nav {
-  background-color: rgb(110, 12, 12);
+#navbar {
+  background-color: red;
+}
+header nav img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
 }
 header nav h1 a {
   float: left;
