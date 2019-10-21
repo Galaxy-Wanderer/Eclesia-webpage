@@ -6,14 +6,16 @@
     <title></title>
   </head>
   <style>
-
+      body {
+        overflow-x: hidden;
+      }
       nav {
-        width: 100%;
+        width: 101%;
         height: 100px;
         background-color: darkRed;
-        position: absolute;
-        left: 0px;
-        top: 0px;
+        position: relative;
+        left: -10px;
+        top: -10px;
       }
       nav ul {
         padding: 0;
@@ -21,26 +23,30 @@
       }
       nav ul li {
         list-style: none;
-        display: inline-block;
         float: left;
-        line-height: 100px;
+        width: 100px
       }
       nav ul li a {
         display: block;
         text-decoration: none;
         font-size: 35px;
         color: white;
-        padding: 0 20px;
+        padding: 0 20px 0px 20px;
+        margin: 0px;
+        line-height: 100px;
+
       }
       nav ul li a ul li {
         display: none;
       }
       nav ul li a:hover ul li {
         display: block;
+        color: red;
         float: none;
-        position: relative;
-        top: 100px;
-        left: -100px;
+        line-height: 25px;
+        margin-right: 0px;
+        margin-top: 35px;
+        width: 100px;
       }
   </style>
   <body>
