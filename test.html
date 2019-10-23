@@ -8,43 +8,59 @@
   <style>
     body {
       text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+    nav {
+      background-color: darkRed;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      color: black;
+      height: 100px;
+    }
+    nav ul {
+      padding-top: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      margin: 15px 0px 0px 0px;
+      list-style: none;
+      font-size: 25px;
     }
     nav ul li {
       float: left;
-      list-style: none;
-      text-decoration: none;
-      margin: 0px;
-      padding: 0px;
+      width: 200px;
+      line-height: 50px;
     }
     nav ul li a {
-      margin: 0px;
-      padding: 0px;
+      margin-right: 100px;
     }
-    nav ul li a ul li {
-      display: none;
-    }
-    nav ul li a:hover ul li {
-      display: block;
+    nav ul li ul {
+      background-color: white;
       float: none;
-      margin: 0px;
-      padding: 0px;
+      text-align: left;
+      width: 200px;
+      font-size: 20px;
     }
   </style>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Home
-          <ul>
-            <li>Sublink 1</li>
-            <li>Sublink 2</li>
-            <li>Sublink 3</li>
-          </ul>
-        </a>
-        </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Materials</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+     <nav>
+       <ul>
+        <li>
+           <a>Home</a>
+             <ul>
+               <li><a>Our Team</a></li>
+               <li><a>Program</a></li>
+               <li><a>Missions and Visions</a></li>
+               <li><a>Resources</a></li>
+             </ul>
+         </li>
+         <li><a>About</a></li>
+         <li><a>Materials</a></li>
+         <li><a>News</a></li>
+         <li><a>Contact</a></li>
+       </ul>
+     </nav>
   </body>
 </html>
