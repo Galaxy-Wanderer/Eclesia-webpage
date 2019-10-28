@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.logo {
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+nav {
+    color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: darkRed;  
+    line-height: 75px;
+}
+.nav-links {
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    letter-spacing: 3px;
+}
