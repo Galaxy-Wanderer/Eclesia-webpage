@@ -4,31 +4,40 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width">
-
+    <meta name="viewport" content="">
     <title></title>
   </head>
   <style>
     body {
       font-family: 'Roboto', sans-serif;
       font-weight: bold;
-    }
-    nav {
-      background-color: darkRed;
-      width: 80%;
-      margin-left: 10%;
-      color: white;
       text-align: center;
     }
-    nav ul {
-      list-style: none;
+    ul {
+        font-size: 110%;
+        list-style-type: none;
+        margin: 1px;
+        padding: 1px;
+        overflow: hidden;
+        background-color: darkRed;
     }
-    nav ul li {
-       display: inline-block;
-       font-size: 25px;
+    li {
+        display: inline-block;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 15px 17px;
+        text-decoration: none;
+    }
+
+
+    li a:hover {
+        background-color: red;
     }
   </style>
   <body>
-    <nav>
       <ul>
         <li><a>Home</a></li>
         <li><a>About</a></li>
@@ -36,6 +45,6 @@
         <li><a>News</a></li>
         <li><a>Contact</a></li>
       </ul>
-    </nav>
   </body>
+
 </html>
