@@ -8,6 +8,7 @@ body {
     text-align: center;
 }
 .logo {
+    color: rgb(250, 192, 0);
     letter-spacing: 3px;
     font-size: 20px;
 }
@@ -16,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: darkRed;  
+    background: rgb(125, 17, 17);  
     line-height: 75px;
 }
 .nav-links {
@@ -28,6 +29,12 @@ nav {
 }
 .nav-links a {
     text-decoration: none;
-    color: rgb(245, 245, 245);
+    color: rgb(250, 192, 0);
     letter-spacing: 3px;
+}
+.burger div {
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    background: white;
 }
