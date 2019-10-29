@@ -7,11 +7,6 @@ body {
     font-weight: bold;
     text-align: center;
 }
-.logo {
-    color: white;
-    letter-spacing: 3px;
-    font-size: 20px;
-}
 nav {
     color: white;
     display: flex;
@@ -19,6 +14,17 @@ nav {
     align-items: center;
     background: rgb(125, 17, 17);  
     line-height: 75px;
+}
+nav img {
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+.title {
+    color: white;
+    font-size: 25px;
+    margin-left: 0px;
 }
 .nav-links {
     color: white;
@@ -32,9 +38,55 @@ nav {
     color: white;
     letter-spacing: 3px;
 }
+.burger {
+    display: none;
+    cursor: pointer;
+}
 .burger div {
     width: 35px;
-    height: 5px;
+    height: 3px;
     margin: 5px;
     background: white;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width:1000px) {
+    body {
+        overflow-x: hidden;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 500px;
+        top: 75px;
+        width: 250px;
+        background-color: rgb(125, 17, 17);
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+        transform: translateX(100%);
+    }
+    .burger {
+        display: block;
+    }
+}
+@media screen and (max-width:1500px) {
+    .title {
+        font-size: 20px;
+    }
+}
+.nav-active {
+    transform: translateX(0%);
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
 }
