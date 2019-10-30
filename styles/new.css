@@ -67,8 +67,7 @@ nav img {
         background-color: rgb(125, 17, 17);
         display: flex;
         flex-direction: column;
-        transition: 0.5s;
-        transform: translateX(100%);
+        display: none;
     }
     .burger {
         display: block;
@@ -76,8 +75,7 @@ nav img {
 }
 
 .nav-active {
-    transition: 0.5s;
-    transform: translateX(0%);
+    display: flex;
 }
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 5px);
