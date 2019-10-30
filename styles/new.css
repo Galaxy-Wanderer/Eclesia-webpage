@@ -13,12 +13,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     background: rgb(125, 17, 17);  
-    line-height: 75px;
 }
 nav img {
     float: left;
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
     border-radius: 100%;
 }
 .title {
@@ -36,7 +35,10 @@ nav img {
 .nav-links a {
     text-decoration: none;
     color: white;
-    letter-spacing: 3px;
+    font-size: 20px;
+}
+.nav-links a:hover {
+    border-bottom: 2px solid white;
 }
 .burger {
     display: none;
@@ -54,16 +56,15 @@ nav img {
         overflow-x: hidden;
     }
     .title {
-        font-size: 10px;
+        font-size: 15px;
     }
     .nav-links {
         position: absolute;
         right: 0px;
         height: 500px;
         top: 75px;
-        width: 250px;
+        width: 200px;
         background-color: rgb(125, 17, 17);
-        font-size: 20px;
         display: flex;
         flex-direction: column;
         transition: 0.5s;
@@ -73,12 +74,9 @@ nav img {
         display: block;
     }
 }
-@media screen and (max-width:1500px) {
-    .title {
-        font-size: 20px;
-    }
-}
+
 .nav-active {
+    transition: 0.5s;
     transform: translateX(0%);
 }
 .toggle .line1 {
