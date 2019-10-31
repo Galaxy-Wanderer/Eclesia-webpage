@@ -10,20 +10,17 @@ body {
 nav {
     color: white;
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     background: rgb(125, 17, 17);  
+    position: fixed;
 }
 nav img {
     float: left;
     width: 95px;
     height: 95px;
     border-radius: 100%;
-}
-.title {
-    color: white;
-    font-size: 25px;
-    margin-left: 0px;
 }
 .nav-links {
     color: white;
@@ -54,12 +51,18 @@ nav img {
 .intro img {
     width: 80%;
 }
-.intro .cool-title {
-    color: white;
-    display: flex;
-    position: absolute;
-    flex-direction: row;
+.intro {
+    background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t31.0-8/20023911_490174944663157_2182735891200737094_o.jpg?_nc_cat=108&_nc_oc=AQkHlXkWqHaRnhUS0jmxcSnq5DUkdqSRISUuH6YSdP31oKbn_aD4vYLEgMjjcJVzJvtexO2g1m43uMvE9dn0S3E6&_nc_ht=scontent.ftce2-1.fna&oh=bdb7746fe1753753bde62e944e0b7e15&oe=5E213E47") center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+.intro .intro-title {
+    padding: 20% 20%;
+    font-size: 50px;
+    color: white;
+}
+
+
 
 @media screen and (max-width:1000px) {
     body {
@@ -82,8 +85,9 @@ nav img {
     .burger {
         display: block;
     }
-    .intro img {
-        width: 100%;
+    .intro .intro-title {
+        padding-top: 35%;
+        font-size: 12px;
     }
 }
 
