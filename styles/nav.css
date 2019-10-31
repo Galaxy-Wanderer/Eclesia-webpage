@@ -1,0 +1,43 @@
+nav {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(125, 17, 17);  
+    position: fixed;
+    height: 10%;
+}
+nav img {
+    float: left;
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+}
+.nav-links {
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-links a:hover {
+    border-bottom: 2px solid white;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 35px;
+    height: 3px;
+    margin: 5px;
+    background: white;
+    transition: all 0.3s ease;
+}

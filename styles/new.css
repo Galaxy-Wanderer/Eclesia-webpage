@@ -7,56 +7,8 @@ body {
     font-weight: bold;
     text-align: center;
 }
-nav {
-    color: white;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    background: rgb(125, 17, 17);  
-    position: fixed;
-    height: 10%;
-}
-nav img {
-    float: left;
-    width: 95px;
-    height: 95px;
-    border-radius: 100%;
-}
-.title {
-    font-size: 25px;
-}
-.nav-links {
-    color: white;
-    display: flex;
-    list-style: none;
-    width: 50%;
-    justify-content: space-around;
-}
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.nav-links a:hover {
-    border-bottom: 2px solid white;
-}
-.burger {
-    display: none;
-    cursor: pointer;
-}
-.burger div {
-    width: 35px;
-    height: 3px;
-    margin: 5px;
-    background: white;
-    transition: all 0.3s ease;
-}
-.intro img {
-    width: 80%;
-}
 .intro {
-    background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t31.0-8/20023911_490174944663157_2182735891200737094_o.jpg?_nc_cat=108&_nc_oc=AQkHlXkWqHaRnhUS0jmxcSnq5DUkdqSRISUuH6YSdP31oKbn_aD4vYLEgMjjcJVzJvtexO2g1m43uMvE9dn0S3E6&_nc_ht=scontent.ftce2-1.fna&oh=bdb7746fe1753753bde62e944e0b7e15&oe=5E213E47") center;
+    background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t1.0-9/16708314_411513165862669_4419773508873251865_n.jpg?_nc_cat=108&_nc_oc=AQnoa-DfNxO2inAvytHHHayWxsOI7u1cgBDcTjk-ojS2BCHrTBC8c_TAn1a873idaRtpHNvaU_Ckm8cStB2rm4uK&_nc_ht=scontent.ftce2-1.fna&oh=b547615ee84082952fdf6186e007b1a7&oe=5E219A73") center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
