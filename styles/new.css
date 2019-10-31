@@ -15,12 +15,16 @@ nav {
     align-items: center;
     background: rgb(125, 17, 17);  
     position: fixed;
+    height: 10%;
 }
 nav img {
     float: left;
     width: 95px;
     height: 95px;
     border-radius: 100%;
+}
+.title {
+    font-size: 25px;
 }
 .nav-links {
     color: white;
@@ -71,11 +75,14 @@ nav img {
     .title {
         font-size: 15px;
     }
+    nav {
+        height: 50px;
+    }
     .nav-links {
         position: absolute;
         right: 0px;
         height: 500px;
-        top: 75px;
+        top: 50px;
         width: 200px;
         background-color: rgb(125, 17, 17);
         display: flex;
@@ -85,8 +92,12 @@ nav img {
     .burger {
         display: block;
     }
+    nav img {
+        width: 50px;
+        height: 50px;
+    }
     .intro .intro-title {
-        padding-top: 35%;
+        padding-top: 20%;
         font-size: 12px;
     }
 }
