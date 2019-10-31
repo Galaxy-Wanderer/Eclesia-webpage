@@ -52,7 +52,13 @@ nav img {
     transition: all 0.3s ease;
 }
 .intro img {
-    width: 75%;
+    width: 80%;
+}
+.intro .cool-title {
+    color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
 }
 
 @media screen and (max-width:1000px) {
@@ -75,6 +81,9 @@ nav img {
     }
     .burger {
         display: block;
+    }
+    .intro img {
+        width: 100%;
     }
 }
 
