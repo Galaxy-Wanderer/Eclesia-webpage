@@ -7,6 +7,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
 .intro {
     background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t1.0-9/16708314_411513165862669_4419773508873251865_n.jpg?_nc_cat=108&_nc_oc=AQnoa-DfNxO2inAvytHHHayWxsOI7u1cgBDcTjk-ojS2BCHrTBC8c_TAn1a873idaRtpHNvaU_Ckm8cStB2rm4uK&_nc_ht=scontent.ftce2-1.fna&oh=b547615ee84082952fdf6186e007b1a7&oe=5E219A73") center;
     background-size: 100%;
@@ -19,7 +20,10 @@ body {
 }
 
 
-
+.container {
+    font-family: Calibre,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-weight: initial;
+}
 @media screen and (max-width:1000px) {
     body {
         overflow-x: hidden;
@@ -49,8 +53,11 @@ body {
         height: 50px;
     }
     .intro .intro-title {
-        padding-top: 17%;
+        padding-top: 25%;
         font-size: 15px;
+    }
+    .intro .intro-title h4 {
+        font-size: 13px;
     }
 }
 
