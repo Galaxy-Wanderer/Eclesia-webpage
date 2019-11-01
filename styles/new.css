@@ -80,11 +80,11 @@ body {
         height: 50px;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: 0px;
-        height: 500px;
         top: 50px;
         width: 200px;
+        line-height: 500%;
         background-color: rgb(125, 17, 17);
         display: flex;
         flex-direction: column;
