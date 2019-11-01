@@ -9,16 +9,3 @@ function navSlide() {
     });
 }
 navSlide();
-var p = document.createElement("p");
-var photos = document.querySelectorAll('.images img');
-var pos = 0;
-function animate() {
-  for(var i=0; i < photos.length; i++) {
-    var picture = photos[i];
-    picture.style.position = "relative";
-    pos = picture.style.right.split("px");
-  }
-  pos++;
-
-};
-window.setInterval(animate, 10);
