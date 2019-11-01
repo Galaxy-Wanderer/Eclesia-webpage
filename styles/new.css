@@ -3,6 +3,8 @@
     padding: 0px;
 }
 body {
+    background: url(https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg) fixed center;
+    background-repeat: no-repeat;
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
@@ -35,13 +37,23 @@ body {
 .images img {
     width: 23%;
 }
+.buttons {
+    margin-top: 25px;
+}
 .buttons button {
     background-color: white;
     border: none;
-    height: 30px;
+    height: 35px;
     width: 25%;
     font-size: 20px;
-    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding-bottom: 4%;
+    border-radius: 10px;
+}
+#button1 {
+    background: linear-gradient(darkRed, rgb(110, 7, 7));
+    color: white;
 }
 @media screen and (max-width:1000px) {
     body {
@@ -83,11 +95,12 @@ body {
         margin-left: 20px;
     }
     .container h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     .buttons button {
         height: 20px;
-        font-size: 10px;
+        font-size: 13px;
+        border-radius: 2px;
     }
 }
 
