@@ -31,18 +31,28 @@ body {
     font-size: 35px;
 }
 .images {
-    overflow-x: auto;
     display: flex;
+    overflow-x: auto;
     margin-top: 2%;
     height: 25%;
     padding: 2%;
     background-color: darkred;
     border: 3px solid whitesmoke;
 }
-
+.images h1 {
+    color: white;
+}
+.images p {
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    margin-top: 50%;
+    line-height: 210%;
+    margin-right: 0px;
+}
 .images img {
     width: 23%;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 50px 0px 50px;
     transition: 0.5s;
 }
 .images img:hover {
@@ -117,7 +127,13 @@ body {
         border-radius: 2px;
     }
     .images img {
-        width: 50%;
+        width: 75%;
+    }
+    .images h1 {
+        font-size: 20px;
+    }
+    .images p {
+        font-size: 12px;
     }
 }
 
