@@ -43,16 +43,18 @@ body {
     color: white;
 }
 .images p {
-    font-size: 17px;
+    font-size: 25px;
     text-align: left;
     color: white;
-    margin-top: 50%;
     line-height: 210%;
+    margin-top: 50%;
     margin-right: 0px;
+    width: 150px;
 }
 .images img {
-    width: 23%;
-    margin: 0px 50px 0px 50px;
+    width: 350px;
+    height: 300px;
+    margin: 10px 75px 0px 50px;
     transition: 0.5s;
 }
 .images img:hover {
@@ -126,14 +128,18 @@ body {
         font-size: 13px;
         border-radius: 2px;
     }
+    .images {
+        height: 200px;
+    }
     .images img {
-        width: 75%;
+        width: 200px;
     }
     .images h1 {
         font-size: 20px;
     }
     .images p {
-        font-size: 12px;
+        margin-top: 25%;
+        font-size: 20px;
     }
 }
 
