@@ -20,25 +20,32 @@ body {
     color: white;
     text-shadow: 5px 5px 10px gray;
 }
+.container {
+    line-height: 65px;
+    margin-right: 2%;
+}
 .container p {
     color: #303030;
-    font-size: 35px;
+    font-size: 32px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .container h1 {
+    margin-left: 20px;
     border-bottom: 3px solid #303030;
+    text-align: left;
     font-size: 35px;
 }
+
 .images {
     overflow-y: hidden;
     display: flex;
     overflow-x: auto;
     margin-top: 2%;
-    height: 25%;
     padding: 2%;
     background-color: darkred;
     border: 3px solid whitesmoke;
+    border-radius: 10px;
 }
 .images h1 {
     color: white;
@@ -53,9 +60,9 @@ body {
     width: 150px;
 }
 .images img {
-    width: 350px;
-    height: 300px;
-    margin: 10px 75px 0px 50px;
+    width: 300px;
+    height: 270px;
+    margin: 10px 30px 0px 30px;
     transition: 0.5s;
 }
 .images img:hover {
@@ -117,24 +124,25 @@ body {
     .intro .intro-title h4 {
         font-size: 13px;
     }
+    .container {
+        line-height: 35px;
+    }
     .container p {
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .container h1 {
         font-size: 25px;
+        margin-left: 10px;
     }
     .buttons button {
         height: 20px;
         font-size: 13px;
         border-radius: 2px;
     }
-    .images {
-        height: 200px;
-    }
     .images img {
-        width: 200px;
-        height: 175px;
+        width: 150px;
+        height: 125px;
     }
     .images h1 {
         font-size: 20px;

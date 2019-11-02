@@ -26,9 +26,10 @@ nav img {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    transition: 0.5s;
 }
 .nav-links a:hover {
-    border-bottom: 2px solid white;
+    text-shadow: 0px 0px 20px gainsboro
 }
 .burger {
     display: none;
