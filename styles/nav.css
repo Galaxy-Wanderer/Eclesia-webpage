@@ -10,8 +10,8 @@ nav {
 }
 nav img {
     float: left;
-    width: 5%;
-    height: 100%;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
 }
 .nav-links {
