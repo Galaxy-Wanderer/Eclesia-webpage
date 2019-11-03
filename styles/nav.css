@@ -18,7 +18,7 @@ nav img {
     color: white;
     display: flex;
     list-style: none;
-    width: 75%;
+    width: 65%;
     justify-content: space-around;
     align-items: center;
 }
@@ -41,4 +41,45 @@ nav img {
     margin: 5px;
     background: white;
     transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        overflow-x: hidden;
+    }
+    .title {
+        font-size: 15px;
+    }
+    nav {
+        height: 50px;
+    }
+    .nav-links {
+        position: fixed;
+        right: 0px;
+        top: 50px;
+        width: 175px;
+        line-height: 500%;
+        background-color: rgb(125, 17, 17);
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    nav img {
+        width: 50px;
+        height: 50px;
+    }
+}
+.nav-active {
+    display: flex;
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
 }

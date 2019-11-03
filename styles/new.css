@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
 }
 .intro .intro-title {
-    padding: 20% 20%;
+    padding: 20%;
     font-size: 50px;
     color: white;
     text-shadow: 5px 5px 10px gray;
@@ -88,35 +88,12 @@ body {
     background: linear-gradient(darkRed, rgb(110, 7, 7));
     color: white;
 }
-
+@media screen and (max-width: 1250px) {
+    .intro .intro-title {
+        padding: 15%;
+    }
+}
 @media screen and (max-width:1000px) {
-    body {
-        overflow-x: hidden;
-    }
-    .title {
-        font-size: 15px;
-    }
-    nav {
-        height: 50px;
-    }
-    .nav-links {
-        position: fixed;
-        right: 0px;
-        top: 50px;
-        width: 175px;
-        line-height: 500%;
-        background-color: rgb(125, 17, 17);
-        display: flex;
-        flex-direction: column;
-        display: none;
-    }
-    .burger {
-        display: block;
-    }
-    nav img {
-        width: 50px;
-        height: 50px;
-    }
     .intro .intro-title {
         padding-top: 25%;
         font-size: 15px;
@@ -125,7 +102,7 @@ body {
         font-size: 13px;
     }
     .container {
-        line-height: 35px;
+        line-height: 25px;
     }
     .container p {
         font-size: 15px;
@@ -151,17 +128,4 @@ body {
         margin-top: 25%;
         font-size: 20px;
     }
-}
-
-.nav-active {
-    display: flex;
-}
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 5px);
-}
-.toggle .line2 {
-    opacity: 0;
-}
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -5px);
 }
