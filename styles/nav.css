@@ -10,15 +10,15 @@ nav {
 }
 nav img {
     float: left;
-    width: 95px;
-    height: 95px;
+    width: 5%;
+    height: 100%;
     border-radius: 100%;
 }
 .nav-links {
     color: white;
     display: flex;
     list-style: none;
-    width: 50%;
+    width: 75%;
     justify-content: space-around;
     align-items: center;
 }

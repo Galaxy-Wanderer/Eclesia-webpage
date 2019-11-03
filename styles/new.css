@@ -21,7 +21,7 @@ body {
     text-shadow: 5px 5px 10px gray;
 }
 .container {
-    line-height: 65px;
+    line-height: 50px;
     margin-right: 2%;
 }
 .container p {
@@ -103,7 +103,7 @@ body {
         position: fixed;
         right: 0px;
         top: 50px;
-        width: 200px;
+        width: 175px;
         line-height: 500%;
         background-color: rgb(125, 17, 17);
         display: flex;
