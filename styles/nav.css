@@ -1,4 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
 nav {
+    font-size: 25px;
     color: white;
     display: flex;
     width: 100%;

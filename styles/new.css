@@ -107,6 +107,8 @@ body {
     .intro .intro-title input {
         width: 50%;
         height: 20px;
+        margin-top: 25px;
+        border: 2px solid darkRed;
     }
     .intro .intro-title h4 {
         font-size: 13px;
