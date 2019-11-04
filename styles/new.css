@@ -20,7 +20,14 @@ body {
     color: white;
     text-shadow: 5px 5px 10px gray;
 }
+.intro .intro-title input {
+    width: 35%;
+    height: 25px;
+    border: 5px solid darkRed;
+    border-radius: 10%;
+}
 .container {
+    margin-bottom: 5%;
     line-height: 50px;
     margin-right: 2%;
 }
@@ -36,7 +43,6 @@ body {
     text-align: left;
     font-size: 35px;
 }
-
 .images {
     overflow-y: hidden;
     display: flex;
@@ -97,6 +103,10 @@ body {
     .intro .intro-title {
         padding-top: 25%;
         font-size: 15px;
+    }
+    .intro .intro-title input {
+        width: 50%;
+        height: 20px;
     }
     .intro .intro-title h4 {
         font-size: 13px;
