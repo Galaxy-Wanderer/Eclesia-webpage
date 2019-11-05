@@ -65,8 +65,8 @@ nav img {
         right: 0px;
         top: 50px;
         width: 175px;
-        line-height: 400%;
-        background-color: rgb(125, 17, 17);
+        line-height: 250%;
+        background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));  
         display: flex;
         flex-direction: column;
         display: none;

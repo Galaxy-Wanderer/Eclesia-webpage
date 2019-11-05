@@ -23,7 +23,7 @@ body {
 .intro .intro-title input {
     width: 35%;
     height: 25px;
-    border: 5px solid darkRed;
+    border: 3px solid darkRed;
     border-radius: 10%;
 }
 .container {
@@ -49,7 +49,7 @@ body {
     overflow-x: auto;
     margin-top: 2%;
     padding: 2%;
-    background: linear-gradient(darkRed, rgb(100, 10, 10));
+    background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));  
     border: 3px solid whitesmoke;
     border-radius: 10px;
 }
@@ -91,7 +91,7 @@ body {
     border-radius: 10px;
 }
 #button1 {
-    background: linear-gradient(darkRed, rgb(110, 7, 7));
+    background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));  
     color: white;
 }
 @media screen and (max-width: 1250px) {
