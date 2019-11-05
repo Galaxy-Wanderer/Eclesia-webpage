@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.intro {
+    margin-top: 5%;
+    background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t1.0-9/15400518_379780119035974_2251739779461007929_n.jpg?_nc_cat=104&_nc_oc=AQmON7BbQqor_cV9pdhzVbvS3eUnRy08h-myYYdpAkGAgyqh9xvovo35npiwjUFt4J5w8T5fvwoYutcFWdZ1qL6W&_nc_ht=scontent.ftce2-1.fna&oh=6168d1efe85e678a105ed6e1f3a16bc8&oe=5E49B1BD") center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.intro h1 {
+    padding: 30%;
+}
