@@ -13,7 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));  
-    position: fixed;
+    position: absolute;
     top: 0px;
     height: 10%;
 }
@@ -62,7 +62,7 @@ nav img {
         height: 50px;
     }
     .nav-links {
-        position: fixed;
+        position: absolute;
         right: 0px;
         top: 50px;
         width: 175px;

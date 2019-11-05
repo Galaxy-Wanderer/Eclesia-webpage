@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-    background: url(https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg) fixed center;
+    background: url('https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg') fixed center;
     background-repeat: no-repeat;
     font-family: 'Oswald', sans-serif;
     text-align: center;

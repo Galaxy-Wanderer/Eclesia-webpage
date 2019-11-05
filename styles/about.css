@@ -2,13 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
-.intro {
-    margin-top: 5%;
-    background: url("https://scontent.ftce2-1.fna.fbcdn.net/v/t1.0-9/15400518_379780119035974_2251739779461007929_n.jpg?_nc_cat=104&_nc_oc=AQmON7BbQqor_cV9pdhzVbvS3eUnRy08h-myYYdpAkGAgyqh9xvovo35npiwjUFt4J5w8T5fvwoYutcFWdZ1qL6W&_nc_ht=scontent.ftce2-1.fna&oh=6168d1efe85e678a105ed6e1f3a16bc8&oe=5E49B1BD") center;
+body {
+    background: url('https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg') fixed center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
-.intro h1 {
-    padding: 30%;
+.intro {
+    background: url("https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/23659583_546827102331274_8229359205545256805_n.jpg?_nc_cat=110&_nc_oc=AQlwflno5KlK-G_UPG01R8mRN151g3BSd7gfMZdw_zDuVLHQno_HGmQgJ2ciM7AMPkS6gIPZATQYQILpodL6cRFg&_nc_ht=scontent.fias1-1.fna&oh=137e87284fdbbc869d6c1836392d87ba&oe=5E47C0F6") center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.intro .intro-title {
+    padding: 20%;
+    font-size: 50px;
+    text-shadow: 0px 0px 20px gray;
+}
+.intro .intro-title button {
+    font-size: 25px;
+    padding: 5px;
+    width: 25%;
+    height: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+@media screen and (max-width: 1500px) {
+    .intro .intro-title {
+        padding: 20%;
+        font-size: 15px;
+    }
+    .intro .intro-title button {
+        font-size: 15px;
+        height: 25px;
+        padding: 0px;
+    }
 }
