@@ -44,27 +44,15 @@ body {
     font-size: 35px;
 }
 .images {
+    overflow-x: auto;
     overflow-y: hidden;
     display: flex;
-    overflow-x: auto;
     margin-top: 2%;
     padding: 2%;
     background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));  
-    border: 3px solid whitesmoke;
-    border-radius: 10px;
+    border-top: 3px solid whitesmoke;
 }
-.images h1 {
-    color: white;
-}
-.images p {
-    font-size: 25px;
-    text-align: left;
-    color: white;
-    line-height: 210%;
-    margin-top: 50%;
-    margin-right: 0px;
-    width: 150px;
-}
+
 .images img {
     width: 300px;
     height: 270px;
