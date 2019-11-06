@@ -67,7 +67,7 @@ body {
 .buttons {
     margin-top: 25px;
 }
-.buttons button {
+.buttons a button {
     background-color: white;
     border: none;
     height: 35px;
@@ -112,7 +112,7 @@ body {
         font-size: 25px;
         margin-left: 10px;
     }
-    .buttons button {
+    .buttons a button {
         height: 20px;
         font-size: 13px;
         border-radius: 2px;
