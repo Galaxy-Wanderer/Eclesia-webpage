@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     background: url('https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg') fixed center;
@@ -33,41 +34,41 @@ body {
     margin-top: 25px;
 }
 .description {
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: white;
     background: rgb(120, 20, 20);
 }
+.description h1 {
+    font-size: 50px;
+}
 .description p {
-    font-size: 20px;
+    font-size: 30px;
+    margin: 0px 20% 0px 20%;
 }
 .description img {
-    display: inline-block;
-    width: 25%;
-    height: 25%;
-    border: 1px solid white;
+    width: 17%;
+    height: 17%;
+    margin: 1%;
 }
-.description .little-image {
-    width: 15%;
-    height: 15%;
-    margin: 0px 1% 0px 1%;
-}
-.container {
+.paragraphs {
     margin-top: 1%;
     line-height: 50px;
     margin-right: 2%;
 }
-.container p {
+.paragraphs p {
     color: #303030;
     font-size: 40px;
     text-align: left;
     margin-left: 20px;
 }
-.container h1 {
+.paragraphs h1 {
     margin-left: 20px;
     border-bottom: 3px solid #303030;
     text-align: left;
     font-size: 35px;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
     .intro .intro-title {
         padding: 20%;
         font-size: 15px;
@@ -78,22 +79,39 @@ body {
         padding: 0px;
         border: 0.5px solid white;
     }
-    .container {
-        margin-top: 2%;
-        line-height: 32px;
-        margin-right: 2%;
-
+    .description img {
+        margin: 5px;
+        width: 17%;
+        height: 17%;
     }
-    .container p {
+    .description h1 {
+        font-size: 30px;
+    }
+    .description p {
+        font-size: 20px;
+    }
+    .paragraphs p {
         color: #303030;
         font-size: 20px;
         text-align: left;
         margin-left: 20px;
     }
-    .container h1 {
+    .paragraphs h1 {
         margin-left: 20px;
         border-bottom: 3px solid #303030;
         text-align: left;
         font-size: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .description p {
+        font-size: 15px;
+        margin: 0px;
+    }
+    .paragraphs {
+        margin-top: 2%;
+        line-height: 32px;
+        margin-right: 2%;
+
     }
 }
