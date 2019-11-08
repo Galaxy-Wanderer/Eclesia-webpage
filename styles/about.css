@@ -34,7 +34,6 @@ body {
     margin-top: 25px;
 }
 .description {
-    margin-top: 25px;
     margin-bottom: 25px;
     color: white;
     background: rgb(120, 20, 20);
@@ -45,11 +44,6 @@ body {
 .description p {
     font-size: 30px;
     margin: 0px 20% 0px 20%;
-}
-.description img {
-    width: 17%;
-    height: 17%;
-    margin: 1%;
 }
 .paragraphs {
     margin-top: 1%;
@@ -78,11 +72,6 @@ body {
         height: 25px;
         padding: 0px;
         border: 0.5px solid white;
-    }
-    .description img {
-        margin: 5px;
-        width: 17%;
-        height: 17%;
     }
     .description h1 {
         font-size: 30px;
