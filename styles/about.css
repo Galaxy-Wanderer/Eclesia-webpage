@@ -29,9 +29,13 @@ body {
     color: white;
     font-family: 'Oswald', sans-serif;
     background: linear-gradient(rgb(120, 20, 20),rgb(100, 10, 10));
-    border-radius: 5px;
-    border: 2px solid white;
     margin-top: 25px;
+    border: none;
+    box-shadow: 1px 1px 10px white;
+    transition: 0.15s;
+}
+.intro .intro-title a button:hover {
+    box-shadow: 5px 5px 15px white;
 }
 .description {
     margin-bottom: 25px;
@@ -71,8 +75,12 @@ body {
         font-size: 15px;
         height: 25px;
         padding: 0px;
-        border: 0.5px solid white;
+        box-shadow: 0px 0px 4px white;
     }
+    .intro .intro-title a button:hover {
+        box-shadow: 3px 3px 7px white;
+    }
+
     .description h1 {
         font-size: 30px;
     }
