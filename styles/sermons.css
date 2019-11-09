@@ -5,6 +5,7 @@
 body {
     background: url('https://wallpapertag.com/wallpaper/full/5/3/9/112974-vertical-church-background-2528x1424-for-desktop.jpg') fixed center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 .intro {
     background: url('https://scontent.ftce2-1.fna.fbcdn.net/v/t1.0-9/23659381_546827115664606_1072102476550831769_n.jpg?_nc_cat=111&_nc_oc=AQn8ncMS3u21TnKXCURpOiJmFBf12iv2oppZdlSNjRNy6mvwT5RNntfSmAxYJMNn6TE4FZ-v8LpeEMccn-1OzEFU&_nc_ht=scontent.ftce2-1.fna&oh=22c0d5bea9769686368e3685ad91d2fe&oe=5E435D27') center;
@@ -18,9 +19,88 @@ body {
     font-size: 75px;
     text-shadow: 5px 5px 10px gray;
 }
+.container {
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    margin-bottom: 5%;
+}
+.container p {
+    font-size: 32px;
+}
+.container h1 {
+    border-bottom: 3px solid black;
+    font-size: 35px;
+}
+.sermons {
+    color: white;
+    background-color: darkred;
+    padding: 1%;
+}
+.sermons h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.sermon {
+    background: rgb(120, 10, 10);
+    display: inline-block;
+    text-align: left;
+    padding: 2%;
+    width: 40%;
+    margin: 10px 2% 10px 2%;
+    border: 3px solid white;
+    transition: 1s;
+}
+.sermon:hover {
+    box-shadow: 0px 0px 20px white;
+    cursor: pointer;
+}
+.sermon h1 {
+    font-size: 50px;
+    border-bottom: 3px solid white
+    
+}
+.sermon p {
+    font-size: 25px;
+    text-align: center;
+}
+.sermon a button {
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border: 1px solid darkred;
+    text-align: right;
+    margin-top: 20px;
+    transition: 1s;
+}
+.sermon a button:hover {
+    background: darkred;
+    color: white;
+}
 @media screen and (max-width: 1500px) {
     .intro .intro-title {
         padding: 20%;
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .container {
+        line-height: 35px;
+    }
+    .container p {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .container h1 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .sermon h1 {
+        font-size: 25px;
     }
 }
