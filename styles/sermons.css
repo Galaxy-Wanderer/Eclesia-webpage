@@ -20,6 +20,7 @@ body {
     text-shadow: 5px 5px 10px gray;
 }
 .container {
+    margin: 0px 20px 0px 20px;
     line-height: 50px;
     text-align: center;
     color: black;
@@ -47,8 +48,8 @@ body {
     display: inline-block;
     text-align: left;
     padding: 2%;
-    width: 40%;
-    margin: 10px 2% 10px 2%;
+    width: 43%;
+    margin: 10px 1% 10px 1%;
     border: 3px solid white;
     transition: 1s;
 }
@@ -102,5 +103,11 @@ body {
 @media screen and (max-width: 1000px) {
     .sermon h1 {
         font-size: 25px;
+    }
+    .sermon {
+        width: 40%;
+    }
+    .sermon p {
+        font-size: 15px;
     }
 }
